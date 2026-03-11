@@ -52,7 +52,7 @@ jobs:
           key: ${{ secrets.KEY }}
           passphrase: ${{ secrets.PASS }}
           script: |
-            cd /home/student/leveryev
+            cd /home/student/savvinov
             docker compose down
             docker compose pull
             docker compose up --detach
